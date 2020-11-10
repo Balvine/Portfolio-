@@ -1,0 +1,60 @@
+html,
+body,
+header {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.top-nav-collapse {
+    background-color: #45454d;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #45454d;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #45454d;
+  }
+}
+body{
+    background-color: #262626;
+}
+#skills{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#img2 {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+#img2:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+}
+#i{
+    color: white;
+}
+#a{
+    color: white;
+}
+p#foot{
+    color: white !important;
+}
+.footer{
+    background-color: #45454d;
+    margin: 0% !important;
+    height: 11vh;
+}
+
+.slewedBox {
+	background: #42dee1;
+	padding: 50px 0;
+	transform: skew(0deg, -10deg) translateY(-190px);
+}
+#skew {
+    margin-top: 6%;
+    padding: 50px 50px;
+	transform: skew(0deg, 10deg);
+	font-family: arial;
+}
